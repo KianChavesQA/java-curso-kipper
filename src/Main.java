@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
         /* Números Inteiros = 100, 234343, 255, 192, 999999999999993
@@ -19,8 +21,6 @@ public class Main {
         char meuChar = 'a';
         System.out.printf(minhaFrase);
 
-        */
-
         byte b = 100;
         short s = 10000;
         int i = 100000;
@@ -31,6 +31,7 @@ public class Main {
         String str = "Kian";
         boolean bool = true;
 
+        // Condicional If Else Else If
         if(str.isBlank()){
             System.out.println("Vazio");
         } else if (str == "Kian"){
@@ -40,5 +41,76 @@ public class Main {
             System.out.println("Deu ruim");
         }
 
+        // Vetor com Valor Fixo
+        int[] colecaoDeInteiro = {1, 2, 3, 4, 5};
+        int[] meusNumeros = new int[5];
+        meusNumeros[0] = 1;
+        System.out.println(colecaoDeInteiro.length);
+        System.out.println(colecaoDeInteiro[0]);
+        System.out.println(meusNumeros[0]);
+
+        String[] nomesArr = new String[10];
+
+        nomesArr[0] = "Fernanda";
+        nomesArr[1] = "Kian";
+        nomesArr[2] = "João";
+        nomesArr[4] = "Maria";
+        nomesArr[5] = "Guilherme";
+        nomesArr[6] = "Matheus";
+        nomesArr[7] = "Felipe";
+        nomesArr[8] = "Rio";
+        nomesArr[9] = "Samba";
+
+        // Sytstem.out.println(nomesArr[0];
+
+        // ArrayList & Vetores
+        ArrayList<String> nomes = new ArrayList<>();
+        nomes.add("Array");
+        nomes.add("List");
+        nomes.add("Nomes");
+        nomes.add("Teste");
+        // System.out.println(nomes.get(0));
+
+        //nomes.remove(4);
+        nomes.remove("Leo");
+
+        // System.out.println(nomes.get(0));
+
+        for (int meuIterador = 0; meuIterador < nomesArr.length; meuIterador++) {
+            System.out.println(nomesArr[meuIterador]);
+        }
+
+        for (int meuIterador = 0; meuIterador < nomes.size(); meuIterador++) {
+            System.out.println(nomes.get(meuIterador));
+        }
+
+        for (String nome : nomes) {
+            System.out.println(nome);
+        }
+
+        for (String nome : nomesArr){
+            System.out.println(nome);
+        }
+
+        int contador = 0;
+
+        while (contador < 10) {
+            System.out.println(contador);
+            contador++;
+        }
+
+        //Casting explícito
+        double resultado = 0.0;
+        int resultadoInt = (int) resultado;
+
+        //Casting implícito
+        int meuInt = 10;
+        double meuDouble = meuInt;
+
+        String meuString = "10";
+        int meuInt2 = Integer.parseInt(meuString);
+
+        System.out.println(meuInt2);
+         */
     }
 }
