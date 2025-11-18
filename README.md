@@ -1,52 +1,50 @@
-☕ Curso de Java para Iniciantes (Fundamentos + POO)
-Este repositório contém os projetos e códigos desenvolvidos durante o acompanhamento da primeira aula do curso de Programação Java para Iniciantes, focado nos fundamentos da linguagem e nos conceitos iniciais de Programação Orientada a Objetos (POO).
+# ☕ Curso de Java para Iniciantes | Fundamentos e POO
 
-🚀 O que foi aprendido / Principais Tópicos
-Os códigos presentes neste repositório exploram os seguintes conceitos:
+[![Java Badge](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
 
-Fundamentos de Java
-Configuração do Ambiente: Estrutura básica de um projeto Java e uso da IDE (IntelliJ, Eclipse ou VS Code).
+Este repositório contém os projetos e códigos desenvolvidos durante o acompanhamento da **primeira aula** do curso de Programação Java para Iniciantes, com foco nos fundamentos da linguagem e nos conceitos iniciais de **Programação Orientada a Objetos (POO)**.
 
-Sintaxe Básica: Declaração de variáveis, tipos de dados primitivos (int, double, boolean, char) e String.
+## 🎓 Sobre a Aula
 
-Estruturas de Controle:
+O conteúdo deste projeto foi estruturado seguindo o material da aula:
 
-Condicionais (if, else if, else).
+| Detalhe | Informação |
+| :--- | :--- |
+| **Título** | **Curso de PROGRAMAÇÃO JAVA para INICIANTES \| Fundamentos + Programação Orientada Objetos** |
+| **Canal** | [Fernanda Kipper \| Dev](https://www.youtube.com/@fernandakipperdev) |
+| **Link da Aula** | [🔗 Assista à aula completa aqui](https://www.youtube.com/watch?v=nODe5lFcGpg&list=PLNCSWIsR6ADI_wMAx9F-Iu8Hs9HHxj4sb&index=1) |
 
-Laços de repetição (for, while).
+## 🧠 Tópicos Aprendidos
 
-Arrays e Coleções Básicas.
+Os códigos neste repositório demonstram a aplicação dos seguintes conceitos fundamentais:
 
-Métodos e Funções.
+### I. Fundamentos da Linguagem
 
-Introdução à Programação Orientada a Objetos (POO)
-Classes e Objetos: Criação de classes e instanciação de objetos.
+* **Tipos de Dados:** Utilização de primitivos (`int`, `double`, `boolean`) e não-primitivos (`String`).
+* **Variáveis e Operadores:** Declaração e manipulação de variáveis, operadores aritméticos, relacionais e lógicos.
+* **Controle de Fluxo:** Implementação de estruturas condicionais e de repetição:
+    * `if`/`else if`/`else`
+    * `for` e `while`
+* **Arrays:** Criação e manipulação de estruturas de dados básicas.
 
-Atributos e Comportamentos: Definição de características (atributos) e ações (métodos) para os objetos.
+### II. Programação Orientada a Objetos (POO)
 
-Encapsulamento: Utilização de modificadores de acesso (público e privado) para proteger os dados.
+* **Classes e Objetos:** Criação da estrutura base de classes (`Pessoa`, `Carro`, etc.) e instanciamento de objetos.
+    * Exemplo:
+        ```java
+        // Criação de uma instância
+        Pessoa aluno = new Pessoa();
+        aluno.nome = "João";
+        aluno.idade = 25;
+        ```
+* **Atributos e Métodos:** Definição de características (atributos) e ações (métodos) para os objetos.
+* **Encapsulamento Básico:** Uso de `public` e `private` para controlar o acesso aos atributos.
 
-🔗 Referência da Aula
-O conteúdo deste projeto foi baseado na aula:
+## 🛠️ Tecnologias
 
-Título: Curso de PROGRAMAÇÃO JAVA para INICIANTES | Fundamentos + Programação Orientada Objetos
+* **Linguagem:** Java ☕
+* **IDE:** *(Substitua aqui pela IDE que você usou, ex: IntelliJ IDEA / VS Code / Eclipse)*
 
-Canal: Fernanda Kipper | Dev
+## ✨ Próximos Passos
 
-Duração: 1h 49min 22s
-
-Data de Publicação: 03 de outubro de 2024
-
-🛠️ Tecnologias Utilizadas
-Linguagem: Java
-
-IDE: IntelliJ IDEA
-
-🎓 Próximos Passos
-Continuar com as próximas aulas da playlist para aprofundar os conhecimentos em:
-
-Herança e Polimorfismo.
-
-Estruturas de Dados mais avançadas.
-
-Desenvolvimento de projetos práticos.
+O objetivo é continuar a jornada de aprendizado em Java, focando nos conceitos mais avançados de POO, como **Herança**, **Polimorfismo** e **Interfaces**, que serão abordados nas próximas aulas da playlist.
