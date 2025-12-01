@@ -47,4 +47,4 @@ Os códigos neste repositório demonstram a aplicação dos seguintes conceitos 
 
 ## ✨ Próximos Passos
 
-O objetivo é continuar a jornada de aprendizado em Java, focando nos conceitos mais avançados de POO, como **Herança**, **Polimorfismo** e **Interfaces**, que serão abordados nas próximas aulas da playlist.
+O objetivo é continuar a jornada de aprendizado em Java, focando nos conceitos mais avançados de POO, como **Herança**, **Polimorfismo** e **Interfaces**.
