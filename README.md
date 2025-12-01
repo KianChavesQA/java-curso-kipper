@@ -43,7 +43,7 @@ Os códigos neste repositório demonstram a aplicação dos seguintes conceitos 
 ## 🛠️ Tecnologias
 
 * **Linguagem:** Java ☕
-* **IDE:** *(Substitua aqui pela IDE que você usou, ex: IntelliJ IDEA / VS Code / Eclipse)*
+* **IDE:** IntelliJ IDEA
 
 ## ✨ Próximos Passos
 
