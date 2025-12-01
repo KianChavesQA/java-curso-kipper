@@ -1,7 +1,33 @@
-import java.util.ArrayList;
-
 public class Main {
     public static void main(String[] args) {
+
+        // Criando duas instâncias (objetos) da classe Carro.
+        // Cada "new Carro(...)" cria um objeto novo na memória.
+        Carro meuCarro = new Carro("Fusca", "Azul");
+        Carro meuCarro2 = new Carro("Brasilia", "Amarela");
+
+        // Acessando as informações com getters (boa prática).
+        System.out.println(meuCarro.getModelo() + " " + meuCarro.getCor());
+        System.out.println(meuCarro2.getModelo());
+
+        // Chamando o metodo acelerar.
+        meuCarro.acelerar();
+        meuCarro2.acelerar();
+
+        // Armazenando o retorno do metodo acelerar.
+        String result = meuCarro2.acelerar();
+        System.out.println(result);
+
+        // Usando o metodo toString sobrescrito.
+        System.out.println(meuCarro);
+
+        // Usando metodo setter
+        meuCarro.setModelo("Opala");
+        meuCarro.setCor("Preto");
+        System.out.println(meuCarro);
+    }
+}
+
         /* Números Inteiros = 100, 234343, 255, 192, 999999999999993
         byte =>8 bits = > -128 a 127
         // byte minhaVar= 130; da erro
@@ -111,6 +137,5 @@ public class Main {
         int meuInt2 = Integer.parseInt(meuString);
 
         System.out.println(meuInt2);
+
          */
-    }
-}
